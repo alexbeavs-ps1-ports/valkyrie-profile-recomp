@@ -71,4 +71,5 @@ exec bash "${PACKAGER}" \
   --project-file README.md \
   --project-file docs/DISC2_FIX.md \
   --project-dir seeds \
+  --project-dir assets \
   "${EXTRA_PROJECT[@]}"
